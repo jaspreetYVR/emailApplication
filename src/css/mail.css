@@ -1,0 +1,101 @@
+.mail {
+    flex: 0.82;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    padding-right: 15px;
+    overflow: scroll;
+}
+
+.mail__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail__top__menu__left {
+    display: flex;
+}
+
+/* .mail__top__menu__left__section__1,
+.mail__top__menu__left__section__2 {
+    border-right: 1px solid whitesmoke;
+} */
+
+.vertical-line {
+    display: inline-block;
+    border-left: 1px solid rgb(228, 227, 227);
+    height: 20px;
+    position: relative;
+    top: 14px;
+}
+
+.mail__top__menu__left__section__1,
+.mail__top__menu__left__section__2,
+.mail__top__menu__left__section__3 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.MuiSvgIcon-root {
+    padding: 5px;
+}
+
+.mail__subject {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 63px
+}
+
+
+.mail__body__avatar {
+    padding: 0 12px;
+}
+
+.mail__body__header {
+    display: flex;
+    align-items: center;
+}
+
+.mail__body__header__right {
+    display: flex;
+    align-items: center;
+}
+
+.mail__body__header__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail__body__header__info {
+    flex: 1;
+}
+
+.mail__body__header__left>h4 {
+    color: darkgray;
+    text-decoration: underline;
+}
+
+.mail__body__header__right>p {
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+}
+
+.mail__body {
+    border-radius: 10px;
+    height: 100vh;
+    margin-left: 66px;
+    background-color: whitesmoke;
+    padding: 15px;
+    display: grid;
+    justify-items: center;
+}
+
+.mail__body>p {
+    width: 60%;
+    margin-top: 50px;
+    overflow-wrap: break-word;
+}

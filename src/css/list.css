@@ -1,0 +1,32 @@
+.list {
+    flex: 0.82;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+    overflow: scroll;
+}
+
+.email__list__settings {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    padding: 5px 10px;
+}
+
+.email__settings__button {
+    font-size: 1.25rem !important;
+}
+
+.list__sections {
+    display: flex;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+}
+
+/* .email__list__settings__right .email__settings__button {
+    font-size: 0.8rem !important;
+} */

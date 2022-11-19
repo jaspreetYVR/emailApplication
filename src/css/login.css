@@ -1,0 +1,48 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #F5F8FC;
+}
+
+.login p {
+    margin-top: 10px;
+}
+
+.formContainer {
+    text-align: center;
+    padding: 20px;
+    background-color: #C0E7FE;
+    border-radius: 5px;
+}
+
+.login form {
+    text-align: center;
+}
+
+.login form input {
+    padding: 8px;
+    width: 258px;
+    outline-width: 0;
+    margin-bottom: 10px;
+}
+
+.login form .formButton,
+.googleLoginButton {
+    width: 258px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.registerText {
+    color: purple;
+    cursor: pointer;
+}
+
+.formContainer>p {
+    font-size: 13px;
+}
+
+.errorMessage {
+    color: red;
+}

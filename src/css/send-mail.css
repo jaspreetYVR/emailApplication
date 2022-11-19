@@ -1,0 +1,63 @@
+.send__mail {
+    width: 45%;
+    max-width: 500px;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 4px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.send__mail__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2F6FB;
+    font-size: 13px;
+    padding: 6px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 400;
+}
+
+.send__mail__body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 400px;
+}
+
+.send__mail__body>input {
+
+    outline-width: 0;
+    border-width: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.send__mail__button {
+    padding: 20px 10px 10px 0;
+}
+
+
+.send__mail__header .MuiSvgIcon-root {
+    cursor: pointer;
+}
+
+.send__mail__message__input {
+    flex: 1;
+    white-space: break-spaces;
+    outline-width: 0;
+    border: none;
+    padding-top: 10px;
+}
+
+.send__mail__error {
+    background-color: #fff;
+    color: red;
+    padding: 2px;
+    text-align: right;
+    font-size: 12px;
+}
